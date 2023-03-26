@@ -77,7 +77,7 @@ header {
   padding: 10px 25px;
 }
 
-
+/*---------------------------------buttons--------------------*/
 .btn-sign-up {
   display: inline-block;
   padding: 10px 20px;
@@ -228,4 +228,93 @@ figure {
     font-weight: 400;
   }
   
+
+
+
+
+  /* Remove default styles on form elements */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+form input,
+form select,
+form textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+form input[type="submit"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+form input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+
+form .form-group {
+  margin-bottom: 20px;
+}
+
+/* Style the form container */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form heading */
+.form-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
+}
+
+/* Style the form success message */
+.form-success {
+  color: green;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style the form error message */
+.form-error {
+  color: red;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
