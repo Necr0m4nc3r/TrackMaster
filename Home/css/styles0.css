@@ -96,27 +96,6 @@ header {
   text-decoration: none;
 }
 
-
-.btn-backtohome {
-  display: inline-block;
-  padding: 5px 12px;
-  background-color: #007bff;
-  color: #fff;
-  border: 2px solid #007bff;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
-  margin-left: 10px;
-}
-
-.btn-backtohome:hover {
-  background-color: #fff;
-  color: #007bff;
-  text-decoration: none;
-}
-
-
 .btn-login {
   display: inline-block;
   padding: 5px 12px;
@@ -135,8 +114,6 @@ header {
   color: #fff;
   text-decoration: none;
 }
-
-
 
 
 .nav-masthead .active {
