@@ -96,10 +96,9 @@ header {
   text-decoration: none;
 }
 
-
 .btn-backtohome {
   display: inline-block;
-  padding: 5px 12px;
+  padding: 10px 20px ;
   background-color: #007bff;
   color: #fff;
   border: 2px solid #007bff;
@@ -107,7 +106,7 @@ header {
   text-decoration: none;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .btn-backtohome:hover {
@@ -115,7 +114,6 @@ header {
   color: #007bff;
   text-decoration: none;
 }
-
 
 .btn-login {
   display: inline-block;
