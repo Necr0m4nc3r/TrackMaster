@@ -171,3 +171,7 @@ Footer
 .mastfoot {
 color: rgba(0, 0, 0, .5);
 }
+.carousel {
+  border-radius: 55px 55px 55px 55px;
+  overflow: hidden;
+}
