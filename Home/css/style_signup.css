@@ -38,18 +38,18 @@ body {
 
 }
 
-.wrapper.active .form-wrapper.sign-up{
+.wrapper.active .form-wrapper.sign-in{
     transform: scale(0) translate(300px, -500px);
 }
 
-.wrapper .form-wrapper.sign-in{
+.wrapper .form-wrapper.sign-up{
     position: absolute;
     top: 0;
     transform: scale(0) translate(-200px, 500px);
 
 }
 
-.wrapper.active .form-wrapper.sign-in{
+.wrapper.active .form-wrapper.sign-up{
     transform: scale(1) translate(0, 0);
 }
 
@@ -147,6 +147,28 @@ outline: none;
     text-decoration: underline;
 }
 
+.backHome-link {
+    font-size: 16px;
+    text-align: center;
+}
+
+.backHome-link a:hover {
+    text-decoration: underline;
+}
+
+.backHome-link a {
+    color: #f2ecec;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.backHome-link .icon {
+    position: relative;
+    color: #fff;
+    top: 3px;
+    font-size: 1.2em;
+    line-height: 57px;
+}
 .social-platform {
     font-size: 14px;
     color: #fff;
