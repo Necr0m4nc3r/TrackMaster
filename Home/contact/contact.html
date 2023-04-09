@@ -18,22 +18,33 @@
   </head>
 
   <body class="text-center">
-
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">
-            <img src="D:\TrackMaster\Home\images\logo.png" alt="Logo" width="55" height="55" style="vertical-align: bottom;">
-          </h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link " href="../index.html">Home</a>
-            <a class="nav-link"  href="../features/features.html">Features</a>
-            <a class="nav-link active " href = "contact.html">Contact</a>
-            <a href="../signin.html" class="btn-login">Login</a>
-          </nav>
-        </div>
-      </header>
-
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="Logo">  TrackMaster</a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Home/features/features.html">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Home/contact/contact.html">Contact</a>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                  <a class="btn-login" href="/Home/signin.html" role="button">Login</a>
+                </form>
+              </ul>
+            </div>
+          </div>
+        </nav>
       <body>
   
 
